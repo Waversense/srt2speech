@@ -60,3 +60,35 @@ active until the next switch:
 Run `python .\srt2speech.py -h` for all options.
 
 You can use the `clone_voice.py` script to create custom cloned voices, it will need outetts as python package.
+
+
+## Features and background
+- pitch-corrected speed adjustment
+- automatic regeneration
+- modification of pauses between words
+- exact placement of silence between subtitle cues
+
+- SRT does not support multiple speakers, so I also added simple templating.
+Adding {{speaker_name}} to a subtitle automatically switches voices.
+
+Of course voice cloning is supported, I added a small helper script.
+
+- Dependencies are minimal: Python, NumPy, llama.cpp, and the required GGUF speech models. I tested it with Q4 quantization, which works well.
+
+## Performance on my laptop:
+RTX 4080 Laptop GPU: around 12–13× real time
+CPU only: around 1.5–2.0× real time
+
+## Languages supported:
+- English (en)
+- Japanese (jp)
+- Korean (ko)
+- Chinese (zh)
+- French (fr)
+- German (de)
+
+It should work on almost any hardware, including old PCs, Linux or Mac.
+
+It may be useful for anyone generating narration, translated audio tracks, accessibility audio, or quick video voiceovers.
+
+The project is open source under the Apache 2.0 license. Attribution and license notices must be preserved.
