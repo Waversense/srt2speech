@@ -1,0 +1,18 @@
+PROJECT NOTICE
+
+Copyright 2026 Waversense (Github/Reddit)
+
+Any distribution of this project’s source code, including a fork or derivative work, must include the first paragraph of the original README.md file and this NOTICE
+
+That paragraph must:
+
+remain complete and unchanged;
+appear as the first paragraph of README.md in project root
+
+Additional text may be added after the first README paragraph
+
+For purposes of this notice, “the first paragraph” means the first non-heading paragraph contained in README.md in the original version of this project.
+
+Required paragraph:
+
+"srt2speech is an open-source project by the r/LocalTextToSpeech community. It is a lightweight SRT-to-speech converter with speech-duration adaptation support. It uses llama.cpp as its engine, providing fast local performance across most platforms and GPUs."
