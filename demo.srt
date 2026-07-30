@@ -1,0 +1,32 @@
+1
+00:00:01,000 --> 00:00:04,200
+{{en_male_1}} This test begins with the male speaker after one second of silence.
+
+2
+00:00:04,500 --> 00:00:07,700
+{{en_female_1}} The female speaker follows after a short pause.
+
+3
+00:00:10,000 --> 00:00:13,600
+{{en_male_1}} The male speaker returns after a clear silent gap.
+
+4
+00:00:13,900 --> 00:00:18,300
+<i>This subtitle spans two lines,</i>
+and its formatting tags should be ignored.
+
+5
+00:00:18,650 --> 00:00:21,050
+{{en_female_1}} A short female cue tests duration fitting.
+
+6
+00:00:24,000 --> 00:00:27,900
+Another long pause should remain silent in the merged wave file.
+
+7
+00:00:28,200 --> 00:00:32,000
+{{en_male_1}} The year 2026 tests number conversion and spoken pacing.
+
+8
+00:00:32,500 --> 00:00:36,300
+The final sentence confirms that the complete timeline stays intact.
