@@ -14,7 +14,7 @@ srt2speech is an open-source project by Waversense from r/LocalTextToSpeech comm
 
    - [OuteTTS-0.3-500M-Q4_0.gguf](https://huggingface.co/OuteAI/OuteTTS-0.3-500M-GGUF/resolve/main/OuteTTS-0.3-500M-Q4_0.gguf?download=true)
    - [WavTokenizer-Large-75-Q5_1.gguf](https://huggingface.co/ggml-org/WavTokenizer/resolve/main/WavTokenizer-Large-75-Q5_1.gguf?download=true)
-
+   You may choose a higher quality quantization from https://huggingface.co/OuteAI/OuteTTS-0.3-500M-GGUF
 3. Install Python if needed, then install the only dependency:
 
    ```powershell
